@@ -4,3 +4,6 @@
 @media(min-width:1500px){.district-grid{max-width:1200px}.district-portrait{height:320px}}
 @media(max-width:1000px) and (min-width:761px){.district-grid{gap:14px}.district-card{padding:12px 12px 22px}.district-portrait{height:240px}.district-card h4{font-size:24px;min-height:84px}}
 @media(max-width:760px){.leader-portrait{max-width:340px}.district-grid{grid-template-columns:1fr;gap:24px}.district-card{max-width:400px;width:100%;margin-inline:auto;padding:18px 18px 25px}.district-portrait{height:320px}.district-card h4{min-height:0}.leadership .district-role{margin-top:0}.district-leadership{margin-top:0}}
+
+/* Match each frame to the original 4:5 portrait: no background side bands. */
+.district-portrait{width:min(100%,240px);height:auto;aspect-ratio:4/5;object-fit:contain;background:transparent;margin-left:auto;margin-right:auto}.district-placeholder{height:300px}.district-card{align-items:stretch}@media(min-width:1500px){.district-portrait{width:min(100%,256px);height:auto}.district-placeholder{height:320px}}@media(max-width:1000px) and (min-width:761px){.district-portrait{width:min(100%,192px);height:auto}.district-placeholder{height:240px}}@media(max-width:760px){.district-portrait{width:min(100%,256px);height:auto}.district-placeholder{height:320px}}
