@@ -1,0 +1,4 @@
+/* Matching portrait frames retain the site's dimensional glass treatment. */
+.leader-portrait{display:block;position:relative;max-width:390px;width:100%;margin:0 auto;border:7px solid #ffffffb0;border-radius:28px;overflow:hidden;box-shadow:0 28px 60px #102d4025,0 7px 0 #ffffff75;background:#e8e6e2}.leader-portrait img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top}.district-portrait{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:17px;margin:0 0 23px;border:1px solid #ffffffdb;box-shadow:0 10px 22px #102d401c}.district-card{overflow:hidden}.district-card h4{font-size:28px}@media(max-width:760px){.leader-portrait{max-width:340px}.district-portrait{max-height:390px;aspect-ratio:4/5}.district-card{max-width:440px;width:100%;margin-inline:auto}}
+
+.district-grid{align-items:start}.leader-portrait{align-self:center}
