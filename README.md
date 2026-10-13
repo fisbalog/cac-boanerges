@@ -22,4 +22,4 @@ Run `python3 -m http.server 4173 --directory dist`, then open `http://localhost:
 - `dist/assets/glass.css` and `dist/assets/glass.js`: shared glass styling and animation
 - `.openai/hosting.json`: existing ChatGPT Sites identity; not used by Vercel
 
-Fonts and the illustrative worship image load from external providers. The archived event flyer is included locally. Content sources are explained at the bottom of each page. Service times and Lagos contact numbers still need to be supplied.
+Fonts and the illustrative worship image load from external providers. The worship flyer is included locally. Content sources are explained at the bottom of each page. The service schedule comes from the supplied worship flyer. Lagos contact numbers and the start time for Lagos Power Night still need to be supplied.
